@@ -1,3 +1,8 @@
+/*
+Author: Github: Sidpng
+Project Info: Base class for SauceLabsHybrid for before and
+              after steps related to its Regression testing.
+ */
 package tests;
 
 import org.openqa.selenium.WebDriver;
@@ -7,8 +12,14 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 
-	static WebDriver driver;
+	static WebDriver driver;    //Initialising Web driver variable
 
+	/*
+		Setting up Before class with:
+		1. Driver Interface to be used, here : Chrome.
+		2. Hitting the base url.
+		3. Setting the UI to full screen mode for better accessibility.
+	*/
 	@BeforeClass
 	public void navigate_to_sauce_labs_homepage() {
 
@@ -19,6 +30,11 @@ public class BaseClass {
 
 	}
 
+	/*
+    Setting up After class with:
+    1. Deleting cookies from previous session.
+    2. Quitting all browser sessions to free up space,memory.
+	*/
 	@AfterClass
 	public void login_to_sauce_labs() {
 
