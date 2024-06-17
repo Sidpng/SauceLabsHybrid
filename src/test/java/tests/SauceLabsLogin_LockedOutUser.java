@@ -15,7 +15,7 @@ import java.util.List;
 
 public class SauceLabsLogin_LockedOutUser extends BaseClass {
 
-    @Test(priority = 2, groups = {"Login tests"})
+    @Test(priority = 2, groups = {"Login_tests"})
     public void standard_user_login() throws IOException {
 
         driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("locked_out_user");

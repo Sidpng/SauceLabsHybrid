@@ -11,12 +11,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
-public class SauceLabsLogin_ProblemUser extends BaseClass {
+public class SauceLabsLogin_VisualUser extends BaseClass{
 
-    @Test(priority = 3, groups = {"Login_tests"})
-    public void standard_user_login() throws IOException {
+    @Test(priority = 6, groups = {"Login_tests"})
+    public void error_user_login() throws IOException {
 
-        driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("problem_user");
+        driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("visual_user");
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
         driver.findElement(By.xpath("//input[@id='login-button']")).click();
         String url = driver.getCurrentUrl();
@@ -33,5 +33,4 @@ public class SauceLabsLogin_ProblemUser extends BaseClass {
         Assert.assertEquals(url, "https://www.saucedemo.com/inventory.html");
 
     }
-
 }

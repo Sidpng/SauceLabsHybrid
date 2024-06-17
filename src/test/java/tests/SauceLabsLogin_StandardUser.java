@@ -13,7 +13,7 @@ import java.util.Date;
 
 public class SauceLabsLogin_StandardUser extends BaseClass {
 
-	@Test(priority = 1, groups = {"Login tests"})
+	@Test(priority = 1, groups = {"Login_tests"})
 	public void standard_user_login() throws IOException {
 
 		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
