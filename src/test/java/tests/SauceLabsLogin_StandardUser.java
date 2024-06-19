@@ -35,7 +35,7 @@ public class SauceLabsLogin_StandardUser extends BaseClass {
 		File screenshot1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// Define the destination file
 		Date d1 = new Date();
-		String FileName1 = d1.toString().replace(":", "_").replace(" ", "_") + ".png";
+		String FileName1 = d1.toString().replace(":", "_").replace(" ", "_") + "StandardUser.png";
 		File destinationFile1 = new File("./src/test/resources/Testevidence/" + FileName1);
 		FileHandler.copy(screenshot1, destinationFile1);
 

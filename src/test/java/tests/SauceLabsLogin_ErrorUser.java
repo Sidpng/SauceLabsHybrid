@@ -24,7 +24,7 @@ public class SauceLabsLogin_ErrorUser extends BaseClass {
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         // Define the destination file
         Date d = new Date();
-        String FileName = d.toString().replace(":", "_").replace(" ", "_") + "ProblemUser.png";
+        String FileName = d.toString().replace(":", "_").replace(" ", "_") + "ErrorUser.png";
         File destinationFile = new File("./src/test/resources/Testevidence/" + FileName);
 
         // Copy the screenshot to the destination file
