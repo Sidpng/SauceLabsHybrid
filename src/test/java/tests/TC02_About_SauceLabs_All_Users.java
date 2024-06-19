@@ -9,12 +9,10 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.time.Duration;
 
-public class AboutSauceLabs extends BaseClass{
+public class TC02_About_SauceLabs_All_Users extends BaseClass {
 
     @Test
     public void aboutSauceLabs() throws IOException {
-        SauceLabsLogin_StandardUser user = new SauceLabsLogin_StandardUser();
-        user.standard_user_login();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='about_sidebar_link']")));
         element.click();
