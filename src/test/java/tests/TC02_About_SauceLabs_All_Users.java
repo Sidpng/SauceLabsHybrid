@@ -11,10 +11,16 @@ import java.time.Duration;
 
 public class TC02_About_SauceLabs_All_Users extends BaseClass {
 
-    @Test
-    public void aboutSauceLabs() throws IOException {
+    ReadConfig readConfig = new ReadConfig();
+    @Test(priority = 7)
+    public void aboutSauceLabs_standard_user() throws IOException {
+        TC01_All_Login_Scenarios objLoginScenarios = new TC01_All_Login_Scenarios();
+        objLoginScenarios.standard_user_login();
+        driver.findElement(By.xpath(readConfig.getProperty("additional_menu_icon"))).click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='about_sidebar_link']")));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(readConfig.getProperty("aboutUs_button"))));
         element.click();
+
+        //add page verification steps
     }
 }
