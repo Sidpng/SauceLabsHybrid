@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import utilities.ReadConfig;
 import utilities.TestNGListener;
 
 import java.io.File;
@@ -18,14 +19,17 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.List;
 
-public class TC01_All_Login_Scenarios extends BaseClass{
+public class TC01_All_Login_Scenarios extends BaseClass {
 
+    ReadConfig readConfig = new ReadConfig();
     @Test(priority = 1, groups = {"Login_tests"})
     public void standard_user_login() throws IOException {
 
-        driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
-        driver.findElement(By.xpath("//input[@id='login-button']")).click();
+        driver.findElement(By.xpath(readConfig.getProperty("username_input_field"))).
+                sendKeys(readConfig.getProperty("standard_username"));
+        driver.findElement(By.xpath(readConfig.getProperty("password_input_field"))).
+                sendKeys(readConfig.getProperty("password_for_all"));
+        driver.findElement(By.xpath(readConfig.getProperty("login_button"))).click();
         String url = driver.getCurrentUrl();
 
         /*
@@ -42,9 +46,9 @@ public class TC01_All_Login_Scenarios extends BaseClass{
         //Verifying whether the landed page is correct after login
 
         Assert.assertEquals(url, "https://www.saucedemo.com/inventory.html");
-        driver.findElement(By.xpath("//button[@id='react-burger-menu-btn']")).click();
+        driver.findElement(By.xpath(readConfig.getProperty("additional_menu_icon"))).click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='logout_sidebar_link']")));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(readConfig.getProperty("logout_button"))));
         element.click();
 
         /*

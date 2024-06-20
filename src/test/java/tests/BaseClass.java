@@ -9,11 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import utilities.ReadConfig;
 
 public class BaseClass {
 
 	static WebDriver driver;    //Initialising Web driver variable
-
+	ReadConfig readConfig = new ReadConfig();
 	/*
 		Setting up Before class with:
 		1. Driver Interface to be used, here : Chrome.
@@ -25,7 +26,7 @@ public class BaseClass {
 
 		System.out.println("Initialising browser");
 		driver = new ChromeDriver();
-		driver.get("https://www.saucedemo.com/");
+		driver.get(readConfig.getProperty("baseurl"));
 		driver.manage().window().maximize();
 
 	}
