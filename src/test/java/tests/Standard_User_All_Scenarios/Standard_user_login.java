@@ -41,11 +41,6 @@ public class Standard_user_login extends BaseClass {
 
         Assert.assertEquals(url, "https://www.saucedemo.com/inventory.html");
 
-        driver.findElement(By.xpath(readConfig.getProperty("additional_menu_icon"))).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(readConfig.getProperty("logout_button"))));
-        element.click();
-
         /*
          * Capturing UI for test evidence
          * Naming convention to include dynamic time stamp
