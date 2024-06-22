@@ -8,12 +8,14 @@ package tests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 
-	static WebDriver driver;    //Initialising Web driver variable
-	ReadConfig readConfig = new ReadConfig();
+	protected static WebDriver driver;    //Initialising Web driver variable
+	protected ReadConfig readConfig = new ReadConfig();
+
 	/*
 		Setting up Before class with:
 		1. Driver Interface to be used, here : Chrome.
