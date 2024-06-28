@@ -1,6 +1,7 @@
 package tests.Standard_User_All_Scenarios;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,8 +24,11 @@ public class Request_demo extends BaseClass {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(readConfig.getProperty("aboutUs_button"))));
         element.click();
         Thread.sleep(2000);
+        WebElement requestDemo = driver.findElement(By.xpath(readConfig.getProperty("request_demo_button")));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", requestDemo);
         List<WebElement> elements = driver.findElements(By.xpath(readConfig.getProperty("request_demo_button")));
         elements.get(2).click();
+        System.out.println(elements.size());
         Assert.assertEquals(driver.getTitle(),"Request a Sauce Labs Demo");
 
         driver.findElement(By.xpath(readConfig.getProperty("additional_menu_icon"))).click();

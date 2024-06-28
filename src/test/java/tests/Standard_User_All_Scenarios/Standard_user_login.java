@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseClass;
+import tests.Global_Methods;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,12 +19,15 @@ import java.util.Date;
 
 public class Standard_user_login extends BaseClass {
 
+    Global_Methods global = new Global_Methods();
     @Test(priority = 1, groups = {"Login_tests"})
     public void standard_user_login() throws IOException {
 
-        driver.findElement(By.xpath(readConfig.getProperty("username_input_field"))).sendKeys(readConfig.getProperty("standard_username"));
-        driver.findElement(By.xpath(readConfig.getProperty("password_input_field"))).sendKeys(readConfig.getProperty("password_for_all"));
-        driver.findElement(By.xpath(readConfig.getProperty("login_button"))).click();
+        global.sendKeysToElementByXPath(readConfig.getProperty("username_input_field"),
+                readConfig.getProperty("standard_username"),10);
+        global.sendKeysToElementByXPath(readConfig.getProperty("password_input_field"),
+                readConfig.getProperty("password_for_all"),10);
+        global.clickElementByXPath(readConfig.getProperty("login_button"));
         String url = driver.getCurrentUrl();
 
         /*
