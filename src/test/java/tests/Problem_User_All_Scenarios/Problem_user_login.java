@@ -22,9 +22,11 @@ public class Problem_user_login extends BaseClass {
     public void problem_user_login() throws IOException {
 
         driver.navigate().refresh();
-        driver.findElement(By.xpath(readConfig.getProperty("username_input_field"))).sendKeys(readConfig.getProperty("problem_username"));
-        driver.findElement(By.xpath(readConfig.getProperty("password_input_field"))).sendKeys(readConfig.getProperty("password_for_all"));
-        driver.findElement(By.xpath(readConfig.getProperty("login_button"))).click();
+        global.sendKeysToElementByXPath(readConfig.getProperty("username_input_field"),
+                readConfig.getProperty("problem_username"),10);
+        global.sendKeysToElementByXPath(readConfig.getProperty("password_input_field"),
+                readConfig.getProperty("password_for_all"),10);
+        global.clickElementByXPath(readConfig.getProperty("login_button"));
         String url = driver.getCurrentUrl();
 
         /*
@@ -34,18 +36,18 @@ public class Problem_user_login extends BaseClass {
 
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Date d = new Date();
-        String FileName = d.toString().replace(":", "_").replace(" ", "_") + "ProblemUser.png";
-        File destinationFile = new File("./src/test/resources/Problem_User_TestEvidences/" + FileName);
+        String FileName = d.toString().replace(":", "_")
+                .replace(" ", "_") + "ProblemUser.png";
+        File destinationFile = new File(readConfig.getProperty("problemUser_testEvidences") + FileName);
         FileHandler.copy(screenshot, destinationFile);
 
         //Verifying whether the landed page is correct after login
 
-        Assert.assertEquals(url, "https://www.saucedemo.com/inventory.html");
+        Assert.assertEquals(url, readConfig.getProperty("afterLogin_url"));
 
-        driver.findElement(By.xpath(readConfig.getProperty("additional_menu_icon"))).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(readConfig.getProperty("logout_button"))));
-        element.click();
+        global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
+        global.waitForElementByXPath(readConfig.getProperty("logout_button"),10);
+        global.clickElementByXPath(readConfig.getProperty("logout_button"));
 
         /*
          * Capturing UI for test evidence
@@ -54,8 +56,9 @@ public class Problem_user_login extends BaseClass {
 
         File screenshot1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Date d1 = new Date();
-        String FileName1 = d1.toString().replace(":", "_").replace(" ", "_") + "ProblemUser.png";
-        File destinationFile1 = new File("./src/test/resources/Problem_User_TestEvidences/" + FileName1);
+        String FileName1 = d1.toString().replace(":", "_")
+                .replace(" ", "_") + "ProblemUser.png";
+        File destinationFile1 = new File(readConfig.getProperty("problemUser_testEvidences") + FileName1);
         FileHandler.copy(screenshot1, destinationFile1);
 
     }
