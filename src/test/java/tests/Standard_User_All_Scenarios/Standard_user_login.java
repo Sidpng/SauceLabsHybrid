@@ -40,6 +40,10 @@ public class Standard_user_login extends BaseClass {
 
         Assert.assertEquals(url, readConfig.getProperty("afterLogin_url"));
 
+        global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
+        global.waitForElementByXPath(readConfig.getProperty("logout_button"),10);
+        global.clickElementByXPath(readConfig.getProperty("logout_button"));
+
         /*
          * Capturing UI for test evidence
          * Naming convention to include dynamic time stamp

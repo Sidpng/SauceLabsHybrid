@@ -39,7 +39,7 @@ public class BaseClass {
     2. Quitting all browser sessions to free up space,memory.
 	*/
 	@AfterClass
-	public void login_to_sauce_labs() {
+	public void closing_test_session() {
 
 		driver.manage().deleteAllCookies();
 		driver.quit();
