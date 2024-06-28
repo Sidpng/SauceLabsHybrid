@@ -15,6 +15,7 @@ public class BaseClass {
 
 	protected static WebDriver driver;    //Initialising Web driver variable
 	protected ReadConfig readConfig = new ReadConfig();
+	protected Global_Methods global = new Global_Methods();
 
 	/*
 		Setting up Before class with:

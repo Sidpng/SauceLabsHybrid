@@ -1,25 +1,19 @@
 package tests.Standard_User_All_Scenarios;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseClass;
-import tests.Global_Methods;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Date;
 
 public class Standard_user_login extends BaseClass {
 
-    Global_Methods global = new Global_Methods();
+
     @Test(priority = 1, groups = {"Login_tests"})
     public void standard_user_login() throws IOException {
 
@@ -37,13 +31,14 @@ public class Standard_user_login extends BaseClass {
 
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Date d = new Date();
-        String FileName = d.toString().replace(":", "_").replace(" ", "_") + "StandardUser.png";
-        File destinationFile = new File("./src/test/resources/Standard_User_TestEvidences/" + FileName);
+        String FileName = d.toString().replace(":", "_")
+                .replace(" ", "_") + "StandardUser.png";
+        File destinationFile = new File(readConfig.getProperty("standardUser_testEvidences") + FileName);
         FileHandler.copy(screenshot, destinationFile);
 
         //Verifying whether the landed page is correct after login
 
-        Assert.assertEquals(url, "https://www.saucedemo.com/inventory.html");
+        Assert.assertEquals(url, readConfig.getProperty("afterLogin_url"));
 
         /*
          * Capturing UI for test evidence
@@ -52,8 +47,9 @@ public class Standard_user_login extends BaseClass {
 
         File screenshot1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Date d1 = new Date();
-        String FileName1 = d1.toString().replace(":", "_").replace(" ", "_") + "StandardUser.png";
-        File destinationFile1 = new File("./src/test/resources/Standard_User_TestEvidences/" + FileName1);
+        String FileName1 = d1.toString().replace(":", "_")
+                .replace(" ", "_") + "StandardUser.png";
+        File destinationFile1 = new File(readConfig.getProperty("standardUser_testEvidences") + FileName1);
         FileHandler.copy(screenshot1, destinationFile1);
     }
 }
