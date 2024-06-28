@@ -1,19 +1,14 @@
 package tests.Visual_User_All_Scenarios;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseClass;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Date;
 
 public class Visual_user_login extends BaseClass {
@@ -45,11 +40,9 @@ public class Visual_user_login extends BaseClass {
 
         Assert.assertEquals(url, readConfig.getProperty("afterLogin_url"));
 
-        driver.findElement(By.xpath(readConfig.getProperty("additional_menu_icon"))).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable
-                (By.xpath(readConfig.getProperty("logout_button"))));
-        element.click();
+        global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
+        global.waitForElementByXPath(readConfig.getProperty("logout_button"),10);
+        global.clickElementByXPath(readConfig.getProperty("logout_button"));
 
         /*
          * Capturing UI for test evidence
