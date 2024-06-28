@@ -20,9 +20,11 @@ public class Locked_user_login extends BaseClass {
     public void locked_out_user_login() throws IOException {
 
         driver.navigate().refresh();
-        driver.findElement(By.xpath(readConfig.getProperty("username_input_field"))).sendKeys(readConfig.getProperty("lockedOut_username"));
-        driver.findElement(By.xpath(readConfig.getProperty("password_input_field"))).sendKeys(readConfig.getProperty("password_for_all"));
-        driver.findElement(By.xpath(readConfig.getProperty("login_button"))).click();
+        global.sendKeysToElementByXPath(readConfig.getProperty("username_input_field"),
+                readConfig.getProperty("lockedOut_username"),10);
+        global.sendKeysToElementByXPath(readConfig.getProperty("password_input_field"),
+                readConfig.getProperty("password_for_all"),10);
+        global.clickElementByXPath(readConfig.getProperty("login_button"));
         String url = driver.getCurrentUrl();
 
         /*
@@ -32,8 +34,9 @@ public class Locked_user_login extends BaseClass {
 
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Date d = new Date();
-        String FileName = d.toString().replace(":", "_").replace(" ", "_") + "LockedOutUser.png";
-        File destinationFile = new File("./src/test/resources/Locked_Out_User_TestEvidences/" + FileName);
+        String FileName = d.toString().replace(":", "_")
+                .replace(" ", "_") + "LockedOutUser.png";
+        File destinationFile = new File(readConfig.getProperty("lockedUser_testEvidences") + FileName);
         FileHandler.copy(screenshot, destinationFile);
 
         //Verifying whether the landed page is correct after login
@@ -49,8 +52,9 @@ public class Locked_user_login extends BaseClass {
 
         File screenshot1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         Date d1 = new Date();
-        String FileName1 = d1.toString().replace(":", "_").replace(" ", "_") + "LockedOutUser.png";
-        File destinationFile1 = new File("./src/test/resources/Locked_Out_User_TestEvidences/" + FileName1);
+        String FileName1 = d1.toString().replace(":", "_")
+                .replace(" ", "_") + "LockedOutUser.png";
+        File destinationFile1 = new File(readConfig.getProperty("lockedUser_testEvidences") + FileName1);
         FileHandler.copy(screenshot1, destinationFile1);
 
     }
