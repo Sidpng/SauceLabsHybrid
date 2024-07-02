@@ -55,5 +55,6 @@ public class Standard_user_login extends BaseClass {
                 .replace(" ", "_") + "StandardUser.png";
         File destinationFile1 = new File(readConfig.getProperty("standardUser_testEvidences") + FileName1);
         FileHandler.copy(screenshot1, destinationFile1);
+
     }
 }
