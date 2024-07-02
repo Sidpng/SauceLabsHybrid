@@ -11,20 +11,31 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Date;
 import java.util.logging.*;
 
 public class BaseClass {
 
-    private static final Logger LOGGER = Logger.getLogger(BaseClass.class.getName());
+    protected final Logger LOGGER = Logger.getLogger(this.getClass().getName());
     protected static WebDriver driver;    //Initialising Web driver variable
 
-    static {
+    {
         FileHandler fileHandler = null; // true for append mode
         try {
-            fileHandler = new FileHandler("./src/test/resources/Logs.log", true);
+            String logDir = "src/test/resources/ExecutionLogs" + "_" + getClass().getSimpleName();
+            Path logPath = Paths.get(logDir);
+            if (!Files.exists(logPath)) {
+                Files.createDirectories(logPath);
+            }
+            String logFile = logDir + "/" + getClass().getSimpleName() + ".log";
+            fileHandler = new FileHandler(logFile, true);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
         fileHandler.setLevel(Level.ALL);
         fileHandler.setFormatter(new SimpleFormatter());
         LOGGER.addHandler(fileHandler);

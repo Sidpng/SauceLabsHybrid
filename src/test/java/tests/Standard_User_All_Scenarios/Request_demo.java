@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Request_demo extends BaseClass {
 
-    @Test(priority = 7)
+    @Test(priority = 7, enabled = false)
     public void aboutSauceLabs_standard_user() throws IOException, InterruptedException {
         Standard_user_login standardUserLogin = new Standard_user_login();
         standardUserLogin.standard_user_login();

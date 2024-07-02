@@ -1,0 +1,14 @@
+Jul 03, 2024 2:19:30 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:19:32 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Test Case: problem_user_login
+Jul 03, 2024 2:19:32 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Entering User details for problem_user_login
+Jul 03, 2024 2:19:32 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:19:33 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:19:33 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: User logging off
+Jul 03, 2024 2:19:33 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

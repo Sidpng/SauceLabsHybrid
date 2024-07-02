@@ -10,17 +10,21 @@ import tests.BaseClass;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+import java.util.logging.Level;
 
 public class Visual_user_login extends BaseClass {
 
     @Test(priority = 2, groups = {"Login_tests"})
     public void visual_user_login() throws IOException {
 
+        LOGGER.log(Level.INFO, "Test Case: visual_user_login");
+        LOGGER.log(Level.INFO, "Entering User details for visual_user_login");
         driver.navigate().refresh();
         global.sendKeysToElementByXPath(readConfig.getProperty("username_input_field"),
-                readConfig.getProperty("visual_username"),10);
+                readConfig.getProperty("visual_username"), 10);
         global.sendKeysToElementByXPath(readConfig.getProperty("password_input_field"),
-                readConfig.getProperty("password_for_all"),10);
+                readConfig.getProperty("password_for_all"), 10);
+        LOGGER.log(Level.INFO, "Clicking on login button");
         global.clickElementByXPath(readConfig.getProperty("login_button"));
         String url = driver.getCurrentUrl();
 
@@ -38,10 +42,12 @@ public class Visual_user_login extends BaseClass {
 
         //Verifying whether the landed page is correct after login
 
+        LOGGER.log(Level.INFO, "Validating if landed on the correct webpage.");
         Assert.assertEquals(url, readConfig.getProperty("afterLogin_url"));
 
+        LOGGER.log(Level.INFO, "User logging off");
         global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
-        global.waitForElementByXPath(readConfig.getProperty("logout_button"),10);
+        global.waitForElementByXPath(readConfig.getProperty("logout_button"), 10);
         global.clickElementByXPath(readConfig.getProperty("logout_button"));
 
         /*
