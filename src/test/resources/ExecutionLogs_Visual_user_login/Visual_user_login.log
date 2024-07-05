@@ -30,3 +30,15 @@ Jul 03, 2024 2:33:16 AM tests.Visual_User_All_Scenarios.Visual_user_login visual
 INFO: User logging off
 Jul 03, 2024 2:33:16 AM tests.BaseClass closing_test_session
 INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 06, 2024 2:19:04 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 06, 2024 2:19:07 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Test Case: visual_user_login
+Jul 06, 2024 2:19:07 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Entering User details for visual_user_login
+Jul 06, 2024 2:19:07 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Clicking on login button
+Jul 06, 2024 2:19:08 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 06, 2024 2:19:08 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

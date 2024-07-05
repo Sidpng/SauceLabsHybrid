@@ -45,11 +45,6 @@ public class Standard_user_login extends BaseClass {
         LOGGER.log(Level.INFO, "Validating if landed on the correct webpage.");
         Assert.assertEquals(url, readConfig.getProperty("afterLogin_url"));
 
-        LOGGER.log(Level.INFO, "User logging off");
-        global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
-        global.waitForElementByXPath(readConfig.getProperty("logout_button"),10);
-        global.clickElementByXPath(readConfig.getProperty("logout_button"));
-
         /*
          * Capturing UI for test evidence
          * Naming convention to include dynamic time stamp

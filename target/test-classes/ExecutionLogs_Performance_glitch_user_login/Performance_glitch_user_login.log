@@ -30,3 +30,15 @@ Jul 03, 2024 2:33:07 AM tests.Performance_Glitch_User_All_Scenarios.Performance_
 INFO: User logging off
 Jul 03, 2024 2:33:08 AM tests.BaseClass closing_test_session
 INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 06, 2024 2:18:31 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 06, 2024 2:18:33 AM tests.Performance_Glitch_User_All_Scenarios.Performance_glitch_user_login performance_glitch_user_login
+INFO: Test Case: performance_glitch_user_login
+Jul 06, 2024 2:18:33 AM tests.Performance_Glitch_User_All_Scenarios.Performance_glitch_user_login performance_glitch_user_login
+INFO: Entering User details for performance_glitch_user_login
+Jul 06, 2024 2:18:34 AM tests.Performance_Glitch_User_All_Scenarios.Performance_glitch_user_login performance_glitch_user_login
+INFO: Clicking on login button
+Jul 06, 2024 2:18:39 AM tests.Performance_Glitch_User_All_Scenarios.Performance_glitch_user_login performance_glitch_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 06, 2024 2:18:39 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
