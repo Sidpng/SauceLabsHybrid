@@ -1,0 +1,12 @@
+Jul 06, 2024 2:13:42 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 06, 2024 2:13:47 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 06, 2024 2:20:36 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 06, 2024 2:20:40 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 06, 2024 2:21:56 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 06, 2024 2:22:00 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
