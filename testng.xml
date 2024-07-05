@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Regression_Testing">
+        <groups>
+            <run>
+                <include name="Login_tests"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "Error_user_login" />
+        </classes>
+    </test>
+</suite>
