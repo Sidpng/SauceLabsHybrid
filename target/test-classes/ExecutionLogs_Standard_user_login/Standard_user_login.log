@@ -1,0 +1,52 @@
+Jul 03, 2024 2:23:05 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:23:07 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Jul 03, 2024 2:23:07 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Jul 03, 2024 2:23:07 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:23:08 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:23:08 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: User logging off
+Jul 03, 2024 2:23:08 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 03, 2024 2:23:29 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Jul 03, 2024 2:23:29 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Jul 03, 2024 2:23:29 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:23:29 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:23:29 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: User logging off
+Jul 03, 2024 2:32:16 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:32:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Jul 03, 2024 2:32:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Jul 03, 2024 2:32:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:32:19 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:32:19 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: User logging off
+Jul 03, 2024 2:32:19 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 03, 2024 2:33:11 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:33:13 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Jul 03, 2024 2:33:13 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Jul 03, 2024 2:33:13 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:33:13 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:33:13 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: User logging off
+Jul 03, 2024 2:33:13 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

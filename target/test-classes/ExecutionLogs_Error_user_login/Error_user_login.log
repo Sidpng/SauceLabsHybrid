@@ -1,0 +1,32 @@
+Jul 03, 2024 2:23:24 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:23:27 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 03, 2024 2:31:59 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:32:02 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Test Case: error_user_login
+Jul 03, 2024 2:32:02 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Entering User details for error_user_login
+Jul 03, 2024 2:32:02 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:32:03 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:32:03 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: User logging off
+Jul 03, 2024 2:32:03 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 03, 2024 2:32:54 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:32:56 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Test Case: error_user_login
+Jul 03, 2024 2:32:56 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Entering User details for error_user_login
+Jul 03, 2024 2:32:56 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:32:57 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:32:57 AM tests.Error_User_All_Scenarios.Error_user_login error_user_login
+INFO: User logging off
+Jul 03, 2024 2:32:57 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

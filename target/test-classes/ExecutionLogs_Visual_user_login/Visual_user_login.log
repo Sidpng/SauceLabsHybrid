@@ -1,0 +1,32 @@
+Jul 03, 2024 2:23:18 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:23:21 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 03, 2024 2:32:19 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:32:21 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Test Case: visual_user_login
+Jul 03, 2024 2:32:21 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Entering User details for visual_user_login
+Jul 03, 2024 2:32:21 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:32:22 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:32:22 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: User logging off
+Jul 03, 2024 2:32:22 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 03, 2024 2:33:14 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 03, 2024 2:33:15 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Test Case: visual_user_login
+Jul 03, 2024 2:33:15 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Entering User details for visual_user_login
+Jul 03, 2024 2:33:16 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Clicking on login button
+Jul 03, 2024 2:33:16 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: Validating if landed on the correct webpage.
+Jul 03, 2024 2:33:16 AM tests.Visual_User_All_Scenarios.Visual_user_login visual_user_login
+INFO: User logging off
+Jul 03, 2024 2:33:16 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
