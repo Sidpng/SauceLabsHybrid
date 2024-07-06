@@ -88,3 +88,11 @@ Jul 06, 2024 2:21:59 AM tests.Standard_User_All_Scenarios.Standard_user_login st
 INFO: Clicking on login button
 Jul 06, 2024 2:21:59 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
 INFO: Validating if landed on the correct webpage.
+Jul 06, 2024 2:23:03 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Jul 06, 2024 2:23:03 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Jul 06, 2024 2:23:03 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Jul 06, 2024 2:23:04 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.

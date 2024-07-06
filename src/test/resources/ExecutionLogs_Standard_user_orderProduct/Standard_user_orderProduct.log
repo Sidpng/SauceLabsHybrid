@@ -14,3 +14,19 @@ Jul 06, 2024 2:23:00 AM tests.BaseClass navigate_to_sauce_labs_homepage
 INFO: Initialising browser
 Jul 06, 2024 2:23:05 AM tests.BaseClass closing_test_session
 INFO: Quitting all browser sessions and deleting cookies generated in this session
+Jul 06, 2024 12:20:54 PM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Jul 06, 2024 12:20:58 PM tests.Standard_User_All_Scenarios.Standard_user_orderProduct standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Jul 06, 2024 12:21:00 PM tests.Standard_User_All_Scenarios.Standard_user_orderProduct standard_user_order_product
+INFO: Selecting product to Add to Cart
+Jul 06, 2024 12:21:00 PM tests.Standard_User_All_Scenarios.Standard_user_orderProduct standard_user_order_product
+INFO: Adding to Cart
+Jul 06, 2024 12:21:00 PM tests.Standard_User_All_Scenarios.Standard_user_orderProduct standard_user_order_product
+INFO: Proceeding to checkout
+Jul 06, 2024 12:21:00 PM tests.Standard_User_All_Scenarios.Standard_user_orderProduct standard_user_order_product
+INFO: Entering customer details
+Jul 06, 2024 12:21:00 PM tests.Standard_User_All_Scenarios.Standard_user_orderProduct standard_user_order_product
+INFO: Clicked on finish purchase button
+Jul 06, 2024 12:21:00 PM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
