@@ -29,6 +29,7 @@ public class Standard_user_orderProduct extends BaseClass {
         }
 
         LOGGER.log(Level.INFO, "Selecting product to Add to Cart");
+        global.waitForElementByXPath(readConfig.getProperty("product_backpack"), 10);
         global.clickElementByXPath(readConfig.getProperty("product_backpack"));
         LOGGER.log(Level.INFO, "Adding to Cart");
         global.clickElementByXPath(readConfig.getProperty("addToCart_button"));
