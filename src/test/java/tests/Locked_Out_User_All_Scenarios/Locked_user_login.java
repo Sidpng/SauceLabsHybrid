@@ -1,3 +1,8 @@
+/*
+Author: GitHub: Sidpng
+Test Case Info: Locked user tries to login into sauce demo application
+ */
+
 package tests.Locked_Out_User_All_Scenarios;
 
 import org.openqa.selenium.By;

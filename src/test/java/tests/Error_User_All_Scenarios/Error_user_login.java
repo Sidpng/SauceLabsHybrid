@@ -1,19 +1,19 @@
+/*
+Author: GitHub: Sidpng
+Test Case Info: Error user login into sauce demo application
+ */
+
 package tests.Error_User_All_Scenarios;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseClass;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Date;
 import java.util.logging.Level;
 

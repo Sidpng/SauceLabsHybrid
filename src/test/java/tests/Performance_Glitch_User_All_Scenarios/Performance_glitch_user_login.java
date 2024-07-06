@@ -1,10 +1,11 @@
+/*
+Author: GitHub: Sidpng
+Test Case Info: Performance glitch user login into sauce demo application
+ */
+
 package tests.Performance_Glitch_User_All_Scenarios;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import tests.BaseClass;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
@@ -13,7 +14,6 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Date;
 import java.util.logging.Level;
 

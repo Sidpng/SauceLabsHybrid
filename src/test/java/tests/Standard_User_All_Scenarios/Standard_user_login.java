@@ -1,3 +1,8 @@
+/*
+Author: GitHub: Sidpng
+Test Case Info: Standard user login into sauce demo application
+ */
+
 package tests.Standard_User_All_Scenarios;
 
 import org.openqa.selenium.OutputType;

@@ -1,3 +1,8 @@
+/*
+Author: GitHub: Sidpng
+Test Case Info: Visual user login into sauce demo application
+ */
+
 package tests.Visual_User_All_Scenarios;
 
 import org.openqa.selenium.OutputType;

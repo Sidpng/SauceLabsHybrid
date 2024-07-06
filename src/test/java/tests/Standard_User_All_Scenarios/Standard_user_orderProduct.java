@@ -14,10 +14,14 @@ import java.util.Date;
 public class Standard_user_orderProduct extends BaseClass {
 
     @Test(priority = 7)
-    public void standard_user_order_product() throws IOException {
+    public void standard_user_order_product()  {
 
         Standard_user_login standard_user_login = new Standard_user_login();
-        standard_user_login.standard_user_login();
+        try {
+            standard_user_login.standard_user_login();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         global.clickElementByXPath(readConfig.getProperty("product_backpack"));
         global.clickElementByXPath(readConfig.getProperty("addToCart_button"));
         global.clickElementByXPath(readConfig.getProperty("cart_button"));
