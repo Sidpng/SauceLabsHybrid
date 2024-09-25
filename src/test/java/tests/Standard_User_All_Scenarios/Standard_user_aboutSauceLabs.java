@@ -24,9 +24,10 @@ public class Standard_user_aboutSauceLabs extends BaseClass {
 
         }
         LOGGER.log(Level.INFO, "Selecting additional option for standard user");
-        global.waitForElementByXPath(readConfig.getProperty("additional_menu_icon"), 10);
+        global.waitForElementByXPath(readConfig.getProperty("additional_menu_icon"), 60);
         global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
         LOGGER.log(Level.INFO, "Selecting additional option for standard user");
+        global.waitForElementByXPath(readConfig.getProperty("aboutUs_button"), 60);
         global.clickElementByXPath(readConfig.getProperty("aboutUs_button"));
         Assert.assertEquals(driver.getTitle(), "Sauce Labs: Cross Browser Testing," +
                 " Selenium Testing & Mobile Testing");

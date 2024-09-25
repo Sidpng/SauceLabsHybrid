@@ -8,3 +8,33 @@ Sept 26, 2024 2:22:47 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSa
 INFO: Selecting additional option for standard user
 Sept 26, 2024 2:22:47 AM tests.BaseClass closing_test_session
 INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 26, 2024 2:26:44 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 2:26:46 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 26, 2024 2:26:47 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:26:47 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:26:47 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 26, 2024 2:27:10 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 2:27:12 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 26, 2024 2:27:13 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:27:13 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:27:13 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 26, 2024 2:29:28 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 2:29:30 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 26, 2024 2:29:31 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:29:31 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:29:31 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
