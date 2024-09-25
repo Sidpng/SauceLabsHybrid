@@ -40,3 +40,15 @@ Jul 03, 2024 2:33:10 AM tests.Problem_User_All_Scenarios.Problem_user_login prob
 INFO: User logging off
 Jul 03, 2024 2:33:11 AM tests.BaseClass closing_test_session
 INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 26, 2024 2:11:17 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 2:11:18 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Test Case: problem_user_login
+Sept 26, 2024 2:11:18 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Entering User details for problem_user_login
+Sept 26, 2024 2:11:18 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Clicking on login button
+Sept 26, 2024 2:11:18 AM tests.Problem_User_All_Scenarios.Problem_user_login problem_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 26, 2024 2:11:19 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

@@ -1,0 +1,10 @@
+Sept 26, 2024 2:22:44 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 2:22:47 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 26, 2024 2:22:47 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:22:47 AM tests.Standard_User_All_Scenarios.Standard_user_aboutSauceLabs standard_user_order_product
+INFO: Selecting additional option for standard user
+Sept 26, 2024 2:22:47 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

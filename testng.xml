@@ -6,8 +6,5 @@
                 <include name="Login_tests"/>
             </run>
         </groups>
-        <classes>
-            <class name = "Error_user_login" />
-        </classes>
     </test>
 </suite>

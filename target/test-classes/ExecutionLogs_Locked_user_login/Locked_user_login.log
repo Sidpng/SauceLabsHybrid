@@ -26,3 +26,15 @@ Jul 03, 2024 2:33:00 AM tests.Locked_Out_User_All_Scenarios.Locked_user_login lo
 INFO: Validating if landed on the correct webpage.
 Jul 03, 2024 2:33:00 AM tests.BaseClass closing_test_session
 INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 26, 2024 2:11:26 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 2:11:27 AM tests.Locked_Out_User_All_Scenarios.Locked_user_login locked_out_user_login
+INFO: Test Case: locked_user_login
+Sept 26, 2024 2:11:27 AM tests.Locked_Out_User_All_Scenarios.Locked_user_login locked_out_user_login
+INFO: Entering User details for locked_user_login
+Sept 26, 2024 2:11:27 AM tests.Locked_Out_User_All_Scenarios.Locked_user_login locked_out_user_login
+INFO: Clicking on login button
+Sept 26, 2024 2:11:28 AM tests.Locked_Out_User_All_Scenarios.Locked_user_login locked_out_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 26, 2024 2:11:28 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
