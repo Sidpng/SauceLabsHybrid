@@ -1,0 +1,28 @@
+Sept 27, 2024 2:18:54 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:18:56 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 27, 2024 2:18:57 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: Selecting filter option for standard user
+Sept 27, 2024 2:18:57 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 27, 2024 2:21:44 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:21:46 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 27, 2024 2:21:47 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: Selecting filter option for standard user
+Sept 27, 2024 2:21:47 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: $15.99
+Sept 27, 2024 2:21:47 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 27, 2024 2:22:36 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:22:38 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: Test Case: standard_user_order_product
+Sept 27, 2024 2:22:39 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: Selecting filter option for standard user
+Sept 27, 2024 2:22:39 AM tests.Standard_User_All_Scenarios.Standard_user_sortProductsFilter standard_user_order_product
+INFO: $15.99
+Sept 27, 2024 2:22:39 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session

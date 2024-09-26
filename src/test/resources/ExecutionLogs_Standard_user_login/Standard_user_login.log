@@ -222,3 +222,83 @@ Sept 26, 2024 4:11:13 PM tests.Standard_User_All_Scenarios.Standard_user_login s
 INFO: Clicking on login button
 Sept 26, 2024 4:11:13 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
 INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:13:27 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:13:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:13:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:13:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:13:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:13:31 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 27, 2024 2:14:16 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:14:19 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:14:19 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:14:19 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:14:19 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:14:20 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 27, 2024 2:17:15 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:17:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:17:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:17:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:17:18 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:17:18 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 27, 2024 2:18:40 AM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 27, 2024 2:18:42 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:18:42 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:18:43 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:18:43 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:18:43 AM tests.BaseClass closing_test_session
+INFO: Quitting all browser sessions and deleting cookies generated in this session
+Sept 27, 2024 2:18:56 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:18:56 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:18:56 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:18:56 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:21:46 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:21:46 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:21:47 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:21:47 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:22:38 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:22:38 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:22:38 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:22:39 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 27, 2024 2:23:54 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 27, 2024 2:23:54 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 27, 2024 2:23:54 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 27, 2024 2:23:54 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
