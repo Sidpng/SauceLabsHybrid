@@ -188,3 +188,29 @@ Sept 26, 2024 2:27:12 AM tests.Standard_User_All_Scenarios.Standard_user_login s
 INFO: Clicking on login button
 Sept 26, 2024 2:27:12 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
 INFO: Validating if landed on the correct webpage.
+Sept 26, 2024 2:29:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 26, 2024 2:29:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 26, 2024 2:29:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 26, 2024 2:29:30 AM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 26, 2024 4:08:19 PM tests.BaseClass navigate_to_sauce_labs_homepage
+INFO: Initialising browser
+Sept 26, 2024 4:08:28 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 26, 2024 4:08:28 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 26, 2024 4:08:28 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 26, 2024 4:08:29 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.
+Sept 26, 2024 4:08:54 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Test Case: standard_user_login
+Sept 26, 2024 4:08:54 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Entering User details for standard_user_login
+Sept 26, 2024 4:08:54 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Clicking on login button
+Sept 26, 2024 4:08:54 PM tests.Standard_User_All_Scenarios.Standard_user_login standard_user_login
+INFO: Validating if landed on the correct webpage.

@@ -23,6 +23,18 @@ public class Global_Methods implements Global_Methods_Interface{
         }
     }
 
+    @Override
+    public void clickElementByID(String xpath) {
+        try {
+            WebElement element = driver.findElement(By.id(xpath));
+            element.click();
+            System.out.println("Clicked on element with XPath: " + xpath);
+        } catch (Exception e) {
+            System.err.println("Failed to click on element with XPath: " + xpath);
+            e.printStackTrace();
+        }
+    }
+
     // Generic function to wait for a web element by XPath
     @Override
     public WebElement waitForElementByXPath(String xpath, int timeoutInSeconds) {
