@@ -9,7 +9,7 @@ import java.util.logging.Level;
 
 public class Standard_user_aboutSauceLabs extends BaseClass {
 
-    @Test(priority = 7)
+    @Test(priority = 8)
     public void standard_user_order_product() throws IOException {
 
         Standard_user_login standard_user_login = new Standard_user_login();
@@ -24,7 +24,7 @@ public class Standard_user_aboutSauceLabs extends BaseClass {
 
         }
         LOGGER.log(Level.INFO, "Selecting additional option for standard user");
-        global.clickElementByID(readConfig.getProperty("additional_menu_icon"));
+        global.clickElementByXPath(readConfig.getProperty("additional_menu_icon"));
         LOGGER.log(Level.INFO, "Selecting additional option for standard user");
         global.waitForElementByXPath(readConfig.getProperty("aboutUs_button"), 60);
         global.clickElementByXPath(readConfig.getProperty("aboutUs_button"));
